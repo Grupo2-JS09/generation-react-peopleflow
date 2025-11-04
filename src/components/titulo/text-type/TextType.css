@@ -1,6 +1,7 @@
 .text-type {
   display: inline-block;
   white-space: pre-wrap;
+  color: #F2D852;
 }
 
 .text-type__cursor {
