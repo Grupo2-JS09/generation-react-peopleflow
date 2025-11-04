@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "flowbite/src/themes/default";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -43,20 +44,20 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(62.793% 0.25768 29.223);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --background: #401539;
+  --foreground: #F2D852;
+  --card: #731D64;
+  --card-foreground: #F2D852;
+  --popover: #731D64;
+  --popover-foreground: #F2D852;
+  --primary: #A61774;
+  --primary-foreground: #F2D852;
+  --secondary: #731D64;
+  --secondary-foreground: #F2D852;
+  --muted: #401539;
+  --muted-foreground: #F2D852;
+  --accent: #A61774;
+  --accent-foreground: #F2D852;
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
@@ -78,7 +79,7 @@
 
 .dark {
   --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
+  --foreground: #f2d852;
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
