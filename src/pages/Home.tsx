@@ -1,6 +1,7 @@
 // @ts-ignore: no declaration file for '../components/background/LiquidEther'
 import LiquidEther from "../components/background/liquidether/LiquidEther";
 import Titulo from "../components/titulo/Titulo";
+import Sobre from "./Sobre";
 
 function Home() {
   return (
@@ -24,13 +25,12 @@ function Home() {
           autoRampDuration={0.6}
         />
 
-        
-      <Titulo />
-      <section id="about">
-        <div className="border-8 w-200 h-800"></div>
-      </section>
-      </div>
+        <Titulo />
 
+        <section className="scroll-smooth">
+          <Sobre />
+        </section>
+      </div>
     </>
   );
 }
