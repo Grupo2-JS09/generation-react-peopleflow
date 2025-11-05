@@ -8,7 +8,7 @@ import Sobre from "./pages/Sobre";
 function App() {
   return (
     <>
-      <div
+      {/* <div
         style={{
           position: "fixed",
           inset: 0,
@@ -33,7 +33,7 @@ function App() {
           autoResumeDelay={3000}
           autoRampDuration={0.6}
         />
-      </div>
+      </div> */}
       <BrowserRouter>
         <Menu />
         <div className="">
