@@ -1,15 +1,15 @@
 // @ts-ignore: missing declaration for ../menu/gooeynav/GooeyNav.jsx
-import GooeyNav from "../menu/gooeynav/GooeyNav";
+import GooeyNav from "./gooeynav/GooeyNav";
 export function Menu() {
   const items = [
     { label: "Home", href: "#" },
     { label: "About", href: "#about" },
-    { label: "Products", href: "#" },
+    { label: "Products", href: "#" }
   ];
   return (
     <>
       <div
-        className="flex justify-center p-10 h-auto"
+        className='flex justify-center p-10 h-auto'
         style={{ position: "relative" }}
       >
         <GooeyNav

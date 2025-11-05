@@ -88,6 +88,10 @@ function Titulo() {
         showCursor={true}
         cursorCharacter="|"
       />
+        <div className="absolute inset-x-0 bottom-150 w-220 text-left p-8">
+          <p>Sua gestão de RH no mais alto nível. Nosso sistema centraliza o cadastro de colaboradores, automatiza cálculos trabalhistas e simplifica processos como férias, rescisões e folha, garantindo precisão e compliance total. Reduza erros, ganhe tempo e tenha controle completo do seu departamento pessoal em uma plataforma intuitiva e segura. Profissionalize sua operação de RH e foque no que realmente importa: desenvolver pessoas e impulsionar resultados.
+          </p>
+        </div>
     </div>
   );
 }

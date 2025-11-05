@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "flowbite/src/themes/default";
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -45,7 +44,7 @@
 :root {
   --radius: 0.625rem;
   --background: #401539;
-  --foreground: #f2d852;
+  --foreground: #f29a2e;
   --card: #731d64;
   --card-foreground: #f2d852;
   --popover: #731d64;
