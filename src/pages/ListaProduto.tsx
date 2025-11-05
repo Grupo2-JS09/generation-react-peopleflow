@@ -11,7 +11,7 @@ import {
 function ListaProduto() {
   return (
     <>
-      <div className="grid grid-cols-1 min-[771px]:grid-cols-2 min-[1457px]:grid-cols-3 justify-items-center gap-10 w-auto p-5">
+      <div className="grid grid-cols-1 min-[829px]:grid-cols-2 min-[1357px]:grid-cols-3 justify-items-center gap-10 w-auto p-5">
         <CardProduct
           Icon={UserCircleCheckIcon}
           size={34}

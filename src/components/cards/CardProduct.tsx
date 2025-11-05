@@ -13,7 +13,7 @@ function CardProduct({ titulo, texto, Icon, size, color }: CardProductProps) {
   return (
     <>
       <SpotlightCard
-        className="custom-spotlight-card w-90 h-90"
+        className="custom-spotlight-card w-100 h-90"
         spotlightColor="rgba(0, 229, 255, 0.2)"
       >
         <div className="">
