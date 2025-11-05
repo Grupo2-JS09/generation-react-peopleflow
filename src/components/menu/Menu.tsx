@@ -4,16 +4,16 @@ import GooeyNav from "../menu/gooeynav/GooeyNav";
 
 export function Menu() {
   // const navigate = useNavigate();
-  
+
   // const handleNavigation = (href: string) => {
   //   navigate(href);
   // };
-  
+
   const items = [
     // { label: "Home", href: "/", onClick: () => handleNavigation("/") },
-    { label: "Home", href: "/"},
-    { label: "About", href: "#about" },
-    { label: "Products", href: "/produto"},
+    { label: "Home", href: "/" },
+    { label: "About", href: "/#about" },
+    { label: "Serviços", href: "/produto" },
   ];
   return (
     <>

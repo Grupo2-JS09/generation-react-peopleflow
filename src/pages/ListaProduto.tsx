@@ -56,15 +56,6 @@ function ListaProduto() {
           texto="Total conformidade comLGPD e normnas trabalhistas, garantindo a privacidade dos dados."
         />
       </div>
-
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-          cumque, perferendis quidem recusandae minima dolores quam atque soluta
-          et nostrum fuga aliquid dicta sed voluptatem libero dignissimos ut,
-          qui numquam!
-        </p>
-      </div>
     </>
   );
 }
