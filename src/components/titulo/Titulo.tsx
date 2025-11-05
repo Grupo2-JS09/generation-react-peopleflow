@@ -88,7 +88,7 @@ function Titulo() {
         cursorCharacter='|'
       />
       <div className='inset-x-0 bottom-150 w-220 text-left p-8'>
-        <p>
+        <p className=" text-2xl">
           Sua gestão de RH no mais alto nível. Nosso sistema centraliza o
           cadastro de colaboradores, automatiza cálculos trabalhistas e
           simplifica processos como férias, rescisões e folha, garantindo

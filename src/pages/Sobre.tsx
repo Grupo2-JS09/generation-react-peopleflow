@@ -4,11 +4,11 @@ import CardProduct from "../components/cards/CardProduct";
 function Sobre() {
   return (
     <>
-      <div>
+      <div className="flex flex-col justify-center">
         <h2 className="text-center font-bold text-6xl mb-5">
           Sobre a RH Solutions
         </h2>
-        <p className="text-justify">
+        <p className=" text-center text-3xl">
           Somos uma empresa dedicada a transformar a gestão de recursos humanos
           através de tecnologia inovadora e soluções inteligentes.
         </p>
@@ -42,7 +42,7 @@ function Sobre() {
       <div>
         <h2 className="text-center font-bold text-6xl mb-5">Nossa História</h2>
 
-        <p className="text-justify">
+        <p className=" text-center text-3xl">
           Fundada em 2020, a People Flow nasceu da necessidade de tornar a
           gestão de recursos humanos mais acessível e eficiente para empresas de
           todos os tamanhos. Nossa equipe combina experiência em RH com
