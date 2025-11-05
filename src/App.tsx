@@ -1,7 +1,9 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LiquidEther from "./components/background/liquidether/LiquidEther";
 import Footer from "./components/footer/Footer";
 import { Menu } from "./components/menu/Menu";
 import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
 
 function App() {
   return (
@@ -32,11 +34,17 @@ function App() {
           autoRampDuration={0.6}
         />
       </div>
-      <Menu />
-      <div className="min-h-[80vh]">
-        <Home />
-      </div>
-      <Footer />
+      <BrowserRouter>
+        <Menu />
+        <div className="min-h-[80vh]">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/sobre" element={<Sobre />} />
+          </Routes>
+        </div>
+
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

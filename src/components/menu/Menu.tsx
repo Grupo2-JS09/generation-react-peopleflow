@@ -11,7 +11,7 @@ export function Menu() {
     // { label: "Home", href: "/", onClick: () => handleNavigation("/") },
     { label: "Home", href: "/" },
     { label: "Sobre", href: "/sobre" },
-    { label: "Serviços", href: "/" }
+    { label: "Serviços", href: "/#servico" }
   ];
   return (
     <>
