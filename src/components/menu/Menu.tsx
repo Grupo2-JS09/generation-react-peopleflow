@@ -1,10 +1,17 @@
 // @ts-ignore: missing declaration for ../menu/gooeynav/GooeyNav.jsx
 import GooeyNav from "./gooeynav/GooeyNav";
 export function Menu() {
+  // const navigate = useNavigate();
+  
+  // const handleNavigation = (href: string) => {
+  //   navigate(href);
+  // };
+  
   const items = [
-    { label: "Home", href: "#" },
+    // { label: "Home", href: "/", onClick: () => handleNavigation("/") },
+    { label: "Home", href: "/"},
     { label: "About", href: "#about" },
-    { label: "Products", href: "#" }
+    { label: "Products", href: "/produto"},
   ];
   return (
     <>

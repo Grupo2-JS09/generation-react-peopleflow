@@ -2,6 +2,7 @@ import LiquidEther from "./components/background/liquidether/LiquidEther";
 import Footer from "./components/footer/Footer";
 import { Menu } from "./components/menu/Menu";
 import Home from "./pages/Home";
+import Produto from "./pages/ListaProduto";
 
 function App() {
   return (

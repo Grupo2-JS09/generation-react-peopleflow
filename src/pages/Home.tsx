@@ -1,6 +1,7 @@
 // @ts-ignore: no declaration file for '../components/background/LiquidEther'
 import Carousel from "../components/carousel/Carousel";
 import Titulo from "../components/titulo/Titulo";
+import Sobre from "./Sobre";
 
 function Home() {
   return (
