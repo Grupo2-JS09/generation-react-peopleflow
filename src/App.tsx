@@ -36,7 +36,7 @@ function App() {
       </div>
       <BrowserRouter>
         <Menu />
-        <div className="min-h-[80vh]">
+        <div className="">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<Sobre />} />

@@ -62,6 +62,7 @@ const TextType: React.FC<TextTypeProps> = ({
         top: 32,
         color: "var(--fourth)",
         fontSize: 70,
+        margin: 40,
         ...style
       }}
     >

@@ -6,8 +6,11 @@ import Servicos from "./Servicos";
 function Home() {
   return (
     <>
-      <div className="flex justify-around w-full h-screen">
-        <Titulo />
+      <div className="flex justify-around w-auto h-auto">
+        <div className="">
+          <Titulo />
+        </div>
+
         <div className="w-200 size-20">
           <Carousel
             slides={[

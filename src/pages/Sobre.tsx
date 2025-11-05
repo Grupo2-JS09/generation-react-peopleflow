@@ -28,23 +28,24 @@ function Sobre() {
           Icon={UserCircleCheckIcon}
           size={34}
           color="#f29a2e"
-          titulo="Cadastro de Funcionários"
-          texto=" Sistema completo para cadastrar e gerenciar informaçõse de todos os colaboradores de forma rápida e segura."
-        />
-        <CardProduct
-          Icon={UserCircleCheckIcon}
-          size={34}
-          color="#f29a2e"
-          titulo="Cadastro de Funcionários"
-          texto=" Sistema completo para cadastrar e gerenciar informaçõse de todos os colaboradores de forma rápida e segura."
+          titulo="Nossa Missão"
+          texto="Promover soluções eficientes em gestão de pessoas, simplificando processos e fortalecendo o papel estratégico do RH nas organizações."
         />
 
         <CardProduct
           Icon={UserCircleCheckIcon}
           size={34}
           color="#f29a2e"
-          titulo="Cadastro de Funcionários"
-          texto=" Sistema completo para cadastrar e gerenciar informaçõse de todos os colaboradores de forma rápida e segura."
+          titulo="Nossa Visão"
+          texto="Ser referência em inovação e tecnologia aplicada ao RH, contribuindo para ambientes de trabalho mais humanos, produtivos e colaborativos."
+        />
+
+        <CardProduct
+          Icon={UserCircleCheckIcon}
+          size={34}
+          color="#f29a2e"
+          titulo="Nossos Valores"
+          texto="Ética, transparência, respeito às pessoas, inovação contínua e compromisso com resultados que geram impacto real."
         />
       </div>
 
@@ -60,12 +61,12 @@ function Sobre() {
         >
           <p className="text-center text-2xl text-(var(--fourth))">
             Fundada em 2020, a People Flow nasceu da necessidade de tornar a
-          gestão de recursos humanos mais acessível e eficiente para empresas de
-          todos os tamanhos. Nossa equipe combina experiência em RH com
-          expertise tecnológica para criar soluções que realmente fazem a
-          diferença no dia a dia das organizações. Hoje, atendemos mais de 500
-          empresas em todo o Brasil, ajudando-as a gerenciar suas equipes com
-          mais eficiência e segurança.
+            gestão de recursos humanos mais acessível e eficiente para empresas
+            de todos os tamanhos. Nossa equipe combina experiência em RH com
+            expertise tecnológica para criar soluções que realmente fazem a
+            diferença no dia a dia das organizações. Hoje, atendemos mais de 500
+            empresas em todo o Brasil, ajudando-as a gerenciar suas equipes com
+            mais eficiência e segurança.
           </p>
         </div>
       </div>
