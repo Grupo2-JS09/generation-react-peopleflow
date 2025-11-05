@@ -4,19 +4,20 @@ import { Icon as PhosphorIcon } from "phosphor-icons-react";
 interface CardProductProps {
   Icon: PhosphorIcon;
   size: number;
+  color: string;
   titulo: string;
   texto: string;
 }
 
-function CardProduct({ titulo, texto, Icon, size }: CardProductProps) {
+function CardProduct({ titulo, texto, Icon, size, color }: CardProductProps) {
   return (
     <>
       <SpotlightCard
-        className="custom-spotlight-card w-90 h-80 "
+        className="custom-spotlight-card w-90 h-90"
         spotlightColor="rgba(0, 229, 255, 0.2)"
       >
         <div className="">
-          <Icon size={size} />
+          <Icon size={size} color={color} />
         </div>
         <div>
           <h2 className="font-bold text-3xl text-center mb-5 text-[#f29a2e] text-left">
