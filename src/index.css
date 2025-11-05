@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "flowbite/src/themes/default";
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -45,19 +44,19 @@
 :root {
   --radius: 0.625rem;
   --background: #401539;
-  --foreground: #F2D852;
-  --card: #731D64;
-  --card-foreground: #F2D852;
-  --popover: #731D64;
-  --popover-foreground: #F2D852;
-  --primary: #A61774;
-  --primary-foreground: #F2D852;
-  --secondary: #731D64;
-  --secondary-foreground: #F2D852;
+  --foreground: #f29a2e;
+  --card: #731d64;
+  --card-foreground: #f2d852;
+  --popover: #731d64;
+  --popover-foreground: #f2d852;
+  --primary: #a61774;
+  --primary-foreground: #f2d852;
+  --secondary: #731d64;
+  --secondary-foreground: #f2d852;
   --muted: #401539;
-  --muted-foreground: #F2D852;
-  --accent: #A61774;
-  --accent-foreground: #F2D852;
+  --muted-foreground: #f2d852;
+  --accent: #a61774;
+  --accent-foreground: #f2d852;
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);

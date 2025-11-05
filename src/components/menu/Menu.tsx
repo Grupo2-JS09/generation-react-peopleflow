@@ -1,7 +1,5 @@
 // @ts-ignore: missing declaration for ../menu/gooeynav/GooeyNav.jsx
-import GooeyNav from "../menu/gooeynav/GooeyNav";
-// import { useNavigate } from 'react-router-dom';
-
+import GooeyNav from "./gooeynav/GooeyNav";
 export function Menu() {
   // const navigate = useNavigate();
   
@@ -18,7 +16,7 @@ export function Menu() {
   return (
     <>
       <div
-        className="flex justify-center p-10 h-auto"
+        className='flex justify-center p-10 h-auto'
         style={{ position: "relative" }}
       >
         <GooeyNav

@@ -1,34 +1,36 @@
 // @ts-ignore: no declaration file for '../components/background/LiquidEther'
-import LiquidEther from "../components/background/liquidether/LiquidEther";
+import Carousel from "../components/carousel/Carousel";
 import Titulo from "../components/titulo/Titulo";
 import Sobre from "./Sobre";
 
 function Home() {
   return (
     <>
-      <div style={{ width: "100%", height: 600, position: "relative" }}>
-        <LiquidEther
-          colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
-          mouseForce={20}
-          cursorSize={100}
-          isViscous={false}
-          viscous={30}
-          iterationsViscous={32}
-          iterationsPoisson={32}
-          resolution={0.5}
-          isBounce={false}
-          autoDemo={true}
-          autoSpeed={0.5}
-          autoIntensity={2.2}
-          takeoverDuration={0.25}
-          autoResumeDelay={3000}
-          autoRampDuration={0.6}
-        />
-
+      <div
+        style={{ width: "100%", height: "100vh", position: "fixed" }}
+        className='flex-auto'
+      >
         <Titulo />
-
-        <section className="scroll-smooth">
-          <Sobre />
+        <div className='absolute right-10 w-200 size-20'>
+          <Carousel
+            slides={[
+              {
+                image: "/src/assets/img/img1.png",
+                text: "Transformando gestão de pessoas"
+              },
+              {
+                image: "/src/assets/img/img2.png",
+                text: ""
+              },
+              {
+                image: "/src/assets/img/img3.jpg",
+                text: "Tecnologia para o seu time"
+              }
+            ]}
+          />
+        </div>
+        <section id='about'>
+          <div className='w-100% h-800'></div>
         </section>
       </div>
     </>
