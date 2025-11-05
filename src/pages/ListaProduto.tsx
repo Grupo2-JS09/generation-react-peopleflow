@@ -3,10 +3,14 @@ import CardProduct from "../components/cards/CardProduct"
 function ListaProduto() {
   return (
     <>
-      <div className="grid grid-cols-5 place-items-center gap-10 w-auto p-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10 w-auto p-5">
         <CardProduct
-          titulo="Teste de titulo"
-          texto="Texto de pbkrngfjnf"
+          titulo="Gestão Simplificada"
+          texto=" Saiba quem está presente e acompanhe o status de cada colaborador de forma rápida e eficiente."
+        />
+        <CardProduct
+          titulo="Modernizar seu RH"
+          texto="Dê um passo à frente com uma solução que reflete o dinamismo da sua empresa."
         />
         <CardProduct
           titulo="Teste de titulo"
@@ -16,14 +20,7 @@ function ListaProduto() {
           titulo="Teste de titulo"
           texto="Texto de pbkrngfjnf"
         />
-        <CardProduct
-          titulo="Teste de titulo"
-          texto="Texto de pbkrngfjnf"
-        />
-        <CardProduct
-          titulo="Teste de titulo"
-          texto="Texto de pbkrngfjnf"
-        />
+        
       </div>
 
       <div>

@@ -13,11 +13,11 @@ function CardProduct({ titulo, texto }: CardProductProps) {
         spotlightColor="rgba(0, 229, 255, 0.2)"
       >
         <div>
-          <h2 className="font-bold text-3xl"> {titulo} </h2>
+          <h2 className="font-bold text-3xl text-center mb-5"> {titulo} </h2>
         </div>
 
         <div>
-          <h3 className="text-2xl"> {texto} </h3>
+          <h3 className="text-2xl text-justify"> {texto} </h3>
         </div>
 
       </SpotlightCard>
