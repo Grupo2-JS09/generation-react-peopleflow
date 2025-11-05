@@ -43,7 +43,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: #401539;
+  --background: var(--secondary);
   --foreground: #f29a2e;
   --card: #731d64;
   --card-foreground: #f2d852;
@@ -74,6 +74,10 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --primary: #812a8c;
+  --secondary: #561f8c;
+  --third: #f2ae30;
+  --fourth: #f29a2e;
 }
 
 .dark {
