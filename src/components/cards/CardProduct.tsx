@@ -2,7 +2,7 @@ import SpotlightCard from "./spotlightcard/SpotlightCard";
 import { Icon as PhosphorIcon } from "phosphor-icons-react";
 
 interface CardProductProps {
-  Icon: PhosphorIcon;
+  Icon?: PhosphorIcon;
   size: number;
   color: string;
   titulo: string;
@@ -20,7 +20,7 @@ function CardProduct({ titulo, texto, Icon, size, color }: CardProductProps) {
           <Icon size={size} color={color} />
         </div>
         <div>
-          <h2 className="font-bold text-3xl text-center mb-5 text-[#f29a2e] text-left">
+          <h2 className="font-bold text-3xl mb-5 text-(var(--fourth)) text-left">
             {" "}
             {titulo}{" "}
           </h2>

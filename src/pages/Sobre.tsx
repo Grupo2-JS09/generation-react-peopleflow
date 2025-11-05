@@ -6,12 +6,21 @@ function Sobre() {
     <>
       <div className="flex flex-col justify-center">
         <h2 className="text-center font-bold text-6xl mb-5">
-          Sobre a RH Solutions
+          Sobre a People Flow
         </h2>
-        <p className=" text-center text-3xl">
-          Somos uma empresa dedicada a transformar a gestão de recursos humanos
-          através de tecnologia inovadora e soluções inteligentes.
-        </p>
+
+        <div
+          className="p-8 rounded-2xl shadow-xl shadow-black/20 m-12"
+          style={{
+            background:
+              "linear-gradient(135deg, var(--secondary), var(--primary))",
+          }}
+        >
+          <p className="text-center text-2xl text-(var(--fourth))">
+            Somos uma empresa dedicada a transformar a gestão de recursos
+            humanos através de tecnologia inovadora e soluções inteligentes.
+          </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 min-[829px]:grid-cols-2 min-[1357px]:grid-cols-3 justify-items-center gap-10 w-auto p-5">
@@ -42,15 +51,23 @@ function Sobre() {
       <div>
         <h2 className="text-center font-bold text-6xl mb-5">Nossa História</h2>
 
-        <p className=" text-center text-3xl">
-          Fundada em 2020, a People Flow nasceu da necessidade de tornar a
+        <div
+          className="p-8 rounded-2xl shadow-xl shadow-black/20 m-12"
+          style={{
+            background:
+              "linear-gradient(135deg, var(--secondary), var(--primary))",
+          }}
+        >
+          <p className="text-center text-2xl text-(var(--fourth))">
+            Fundada em 2020, a People Flow nasceu da necessidade de tornar a
           gestão de recursos humanos mais acessível e eficiente para empresas de
           todos os tamanhos. Nossa equipe combina experiência em RH com
           expertise tecnológica para criar soluções que realmente fazem a
           diferença no dia a dia das organizações. Hoje, atendemos mais de 500
           empresas em todo o Brasil, ajudando-as a gerenciar suas equipes com
           mais eficiência e segurança.
-        </p>
+          </p>
+        </div>
       </div>
     </>
   );
