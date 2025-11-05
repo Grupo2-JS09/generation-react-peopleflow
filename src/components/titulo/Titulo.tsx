@@ -15,7 +15,7 @@ const TextType: React.FC<TextTypeProps> = ({
   pauseDuration = 1500,
   showCursor = true,
   cursorCharacter = "|",
-  style
+  style,
 }) => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
@@ -58,11 +58,12 @@ const TextType: React.FC<TextTypeProps> = ({
     <div
       style={{
         position: "absolute",
+        fontWeight: "bold",
         left: 32,
         top: 32,
-        color: "#fff",
+        color: "#f2d852",
         fontSize: 70,
-        ...style
+        ...style,
       }}
     >
       {text[index].substring(0, subIndex)}
@@ -77,11 +78,15 @@ function Titulo() {
   return (
     <div>
       <TextType
-        text={["People Flow", "Sua gestão de RH", "Descomplicado e inteligente!"]}
+        text={[
+          "People Flow",
+          "Sua gestão de RH",
+          "Descomplicado e inteligente!",
+        ]}
         typingSpeed={75}
         pauseDuration={1500}
         showCursor={true}
-        cursorCharacter='|'
+        cursorCharacter="|"
       />
     </div>
   );

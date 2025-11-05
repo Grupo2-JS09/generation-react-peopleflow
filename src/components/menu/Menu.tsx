@@ -4,11 +4,14 @@ export function Menu() {
   const items = [
     { label: "Home", href: "#" },
     { label: "About", href: "#about" },
-    { label: "Products", href: "#" }
+    { label: "Products", href: "#" },
   ];
   return (
     <>
-      <div className="flex justify-center p-10 h-auto" style={{ position: "relative" }}>
+      <div
+        className="flex justify-center p-10 h-auto"
+        style={{ position: "relative" }}
+      >
         <GooeyNav
           items={items}
           particleCount={15}
@@ -17,7 +20,7 @@ export function Menu() {
           initialActiveIndex={0}
           animationTime={600}
           timeVariance={300}
-          colors={['#A61774', '#731D64', '#401539', '#F2D852']}
+          colors={["#A61774", "#731D64", "#401539", "#F2D852"]}
         />
       </div>
     </>
