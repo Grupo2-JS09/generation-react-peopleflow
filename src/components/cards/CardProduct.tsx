@@ -12,21 +12,24 @@ function CardProduct({ titulo, texto, Icon, size }: CardProductProps) {
   return (
     <>
       <SpotlightCard
-        className="custom-spotlight-card w-90 h-80"
+        className="custom-spotlight-card w-90 h-80 "
         spotlightColor="rgba(0, 229, 255, 0.2)"
       >
-        <div>
+        <div className="">
           <Icon size={size} />
         </div>
         <div>
-          <h2 className="font-bold text-3xl text-center mb-5 text-[#f29a2e]">
+          <h2 className="font-bold text-3xl text-center mb-5 text-[#f29a2e] text-left">
             {" "}
             {titulo}{" "}
           </h2>
         </div>
 
         <div>
-          <h3 className="text-2xl text-justify text-[#f2ae30]"> {texto} </h3>
+          <h3 className="text-2xl text-justify text-[#f2ae30] text-left">
+            {" "}
+            {texto}{" "}
+          </h3>
         </div>
       </SpotlightCard>
     </>
