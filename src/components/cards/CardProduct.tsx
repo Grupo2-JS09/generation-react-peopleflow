@@ -1,5 +1,5 @@
 import SpotlightCard from "./spotlightcard/SpotlightCard";
-import { Icon as PhosphorIcon } from "phosphor-icons-react";
+import type { Icon as PhosphorIcon } from "@phosphor-icons/react";
 
 interface CardProductProps {
   Icon?: PhosphorIcon;
