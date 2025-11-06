@@ -7,7 +7,7 @@ const GooeyNav = ({
   particleDistances = [90, 10],
   particleR = 100,
   timeVariance = 300,
-  colors = [1, 2, 3, 1, 2, 3, 1, 4],
+  colors = [1, 2, 3, 2, 1, 3, 1, 2],
   initialActiveIndex = 0
 }) => {
   const containerRef = useRef(null);
@@ -45,6 +45,7 @@ const GooeyNav = ({
       setTimeout(() => {
         const particle = document.createElement("span");
         const point = document.createElement("span");
+
         particle.classList.add("particle");
         particle.style.setProperty("--start-x", `${p.start[0]}px`);
         particle.style.setProperty("--start-y", `${p.start[1]}px`);
@@ -145,11 +146,11 @@ const GooeyNav = ({
             z-index: 1;
           }
           .effect.text {
-            color: white;
+            color: var(--fourth);
             transition: color 0.3s ease;
           }
           .effect.text.active {
-            color: black;
+            color: var(--primary);
           }
           .effect.filter {
             filter: blur(7px) contrast(100) blur(0);
@@ -198,7 +199,7 @@ const GooeyNav = ({
             animation: particle calc(var(--time)) ease 1 -350ms;
           }
           .point {
-            background: var(--color);
+            background: var(--chart-4);
             opacity: 1;
             animation: point calc(var(--time)) ease 1 -350ms;
           }
@@ -249,7 +250,7 @@ const GooeyNav = ({
             }
           }
           li.active {
-            color: black;
+            color: var(--primary);
             text-shadow: none;
           }
           li.active::after {

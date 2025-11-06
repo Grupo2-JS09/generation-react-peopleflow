@@ -27,7 +27,7 @@ export function Menu() {
           initialActiveIndex={0}
           animationTime={600}
           timeVariance={300}
-          colors={[1, 2, 3, 4, 1, 2, 3, 4, 1]}
+          colors={[1, 2, 3, 4, 1, 2, 3, 4]}
         />
       </div>
     </>
