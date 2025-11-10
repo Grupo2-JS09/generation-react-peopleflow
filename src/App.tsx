@@ -8,12 +8,12 @@ import Sobre from "./pages/Sobre";
 function App() {
   return (
     <>
-      {/* <div
+      <div
         style={{
           position: "fixed",
           inset: 0,
           zIndex: -1,
-          overflow: "hidden",
+          overflow: "hidden"
         }}
       >
         <LiquidEther
@@ -33,13 +33,13 @@ function App() {
           autoResumeDelay={3000}
           autoRampDuration={0.6}
         />
-      </div> */}
+      </div>
       <BrowserRouter>
         <Menu />
-        <div className="">
+        <div className=''>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/sobre" element={<Sobre />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/sobre' element={<Sobre />} />
           </Routes>
         </div>
 
