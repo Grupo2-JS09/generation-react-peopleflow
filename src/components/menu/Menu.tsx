@@ -10,7 +10,7 @@ export function Menu() {
   const items = [
     // { label: "Home", href: "/", onClick: () => handleNavigation("/") },
     { label: "Home", href: "/" },
-    { label: "Sobre", href: "/sobre" },
+    { label: "Sobre", href: "/#sobre" },
     { label: "Serviços", href: "/#servico" }
   ];
   return (

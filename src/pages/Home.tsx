@@ -2,6 +2,7 @@
 import Carousel from "../components/carousel/Carousel";
 import Titulo from "../components/titulo/Titulo";
 import Servicos from "./Servicos";
+import Sobre from "./Sobre";
 
 function Home() {
   return (
@@ -31,9 +32,13 @@ function Home() {
         </div>
       </div>
 
-      <div id='servico'>
+      <section id='sobre'>
+        <Sobre />
+      </section>
+
+      <section id='servico'>
         <Servicos />
-      </div>
+      </section>
     </>
   );
 }
